@@ -1,0 +1,53 @@
+.career {
+  width: 60%;
+  height: 100%;
+  background: #fff;
+  box-sizing: border-box;
+  padding: 0 15px;
+}
+
+.name-wrapper {
+  margin: 50px 0 0;
+  padding: 0;
+}
+
+.name {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: none;
+  text-align: center;
+  line-height: 22px;
+  text-decoration: none;
+  color: #2c3b51;
+  margin: 0;
+  padding: 0;
+}
+
+.title-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0 0;
+  padding: 0;
+}
+
+.title {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 14px;
+  text-decoration: none;
+  color: #2c3b51;
+  margin: 0;
+  padding: 0;
+}
+
+.title-bar {
+  width: 325px;
+  height: 12px;
+  background: #2c3b51;
+}

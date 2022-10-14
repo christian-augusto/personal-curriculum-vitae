@@ -1,0 +1,121 @@
+.about-me {
+  width: 40%;
+  height: 100%;
+  background: #2c3b51;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.about-me__photo {
+  width: 100%;
+  height: auto;
+  margin: 40px 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.about-me__photo img {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.about-me .section-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-align: justify;
+  line-height: 14px;
+  color: #fff;
+}
+
+.about-me p {
+  width: 100%;
+  height: auto;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: none;
+  text-decoration: none;
+  text-align: justify;
+  line-height: 12px;
+  color: #fff;
+}
+
+.about-me__description {
+  width: 100%;
+  height: auto;
+  width: 80%;
+  margin: 70px auto 0;
+}
+
+.about-me__description p {
+  margin: 15px 0 0;
+}
+
+.about-me__contact {
+  width: 80%;
+  margin: 50px auto 0;
+}
+
+.about-me__contact ul {
+  width: 100%;
+  height: auto;
+  margin: 15px 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.about-me__contact ul li {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.about-me__contact ul li i {
+  font-size: 24px;
+  color: #fff;
+}
+
+.about-me__contact ul li p {
+  margin:  0 0 0 15px;
+}
+
+.about-me__contact ul li:not(:first-child) {
+  margin: 20px 0 0;
+}
+
+.about-me__hobbies {
+  width: 80%;
+  margin: 50px auto 0;
+}
+
+.about-me__hobbies__wrapper {
+  width: 100%;
+  height: auto;
+  margin: 15px 0 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-me__hobbies i {
+  font-size: 50px;
+  color: #fff;
+}
+
+.about-me__hobbies i:not(:first-child) {
+  margin: 0 0 0 20px;
+}
