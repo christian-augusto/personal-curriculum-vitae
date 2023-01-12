@@ -8,3 +8,14 @@
   justify-content: flex-start;
   align-items: flex-start;
 }
+
+.section-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-align: justify;
+  line-height: 19px;
+  color: #2c3b51;
+}

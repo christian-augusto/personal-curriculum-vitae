@@ -1,5 +1,5 @@
 .career {
-  width: 60%;
+  width: 65%;
   height: 100%;
   background: #fff;
   box-sizing: border-box;
@@ -12,19 +12,10 @@
 }
 
 .name {
-  font-family: "Roboto", sans-serif;
-  font-size: 22px;
-  font-weight: 700;
-  text-transform: none;
-  text-align: center;
-  line-height: 22px;
   text-decoration: none;
-  color: #2c3b51;
-  margin: 0;
-  padding: 0;
 }
 
-.title-wrapper {
+.career-title-wrapper {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -33,12 +24,76 @@
   padding: 0;
 }
 
-.title {
+.career-title {
+  color: #2c3b51;
+  text-decoration: none;
+}
+
+.career-title-bar {
+  width: 320px;
+  height: 12px;
+  background: #2c3b51;
+}
+
+.jobs-wrapper,
+.formations-wrapper,
+.classifications-wrapper {
+  width: 100%;
+  margin: 15px 0 0;
+  padding: 0;
+}
+
+.classifications-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.formations-wrapper {
+  margin: 50px 0 0;
+}
+
+.jobs-wrapper .jobs,
+.formations-wrapper .formations {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.classifications-wrapper .skills {
+  width: auto;
+}
+
+.job,
+.formation {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.job:first-child,
+.formation:first-child {
+  margin: 15px 0 0;
+}
+
+.job:not(:first-child),
+.formation:not(:first-child) {
+  margin: 50px 0 0;
+}
+
+.job .job-period,
+.formation .formation-period {
+  width: 35%;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
-  font-weight: 700;
-  text-transform: uppercase;
-  text-align: center;
+  font-weight: 400;
+  text-transform: none;
+  text-align: left;
   line-height: 14px;
   text-decoration: none;
   color: #2c3b51;
@@ -46,8 +101,94 @@
   padding: 0;
 }
 
-.title-bar {
-  width: 325px;
-  height: 12px;
-  background: #2c3b51;
+.job .job-details,
+.formation .formation-details {
+  width: 65%;
+  height: auto;
+}
+
+.job .job-company,
+.formation .formation-company {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: none;
+  text-align: left;
+  line-height: 14px;
+  text-decoration: none;
+  color: #2c3b51;
+  margin: 0;
+  padding: 0;
+}
+
+.job .job-name-wrapper,
+.formation .formation-name-wrapper {
+  width: 100%;
+  height: auto;
+  margin: 10px 0 0;
+}
+
+.job .job-name,
+.formation .formation-name {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: none;
+  text-align: left;
+  line-height: 14px;
+  text-decoration: none;
+  color: #2c3b51;
+  margin: 0;
+  padding: 0;
+}
+
+.job .job-description-wrapper,
+.formation .formation-description-wrapper {
+  width: 100%;
+  height: auto;
+  margin: 10px 0 0;
+}
+
+.job .job-description,
+.formation .formation-description {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: none;
+  text-align: justify;
+  line-height: 14px;
+  text-decoration: none;
+  color: #2c3b51;
+  margin: 0;
+  padding: 0;
+}
+
+.skill,
+.classification {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.skill:not(:first-child),
+.classification:not(:first-child) {
+  margin: 10px 0 0;
+}
+
+.skill:first-child,
+.classification:first-child {
+  margin: 5px 0 0;
+}
+
+.classification .stars {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 0 0 10px;
+}
+
+.classification .stars .star i {
+  font-size: 13px;
 }

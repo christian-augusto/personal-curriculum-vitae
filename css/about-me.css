@@ -1,11 +1,15 @@
 .about-me {
-  width: 40%;
+  width: 35%;
   height: 100%;
   background: #2c3b51;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
+}
+
+.about-me .wrapper {
+  width: 88%;
 }
 
 .about-me__photo {
@@ -25,13 +29,6 @@
 }
 
 .about-me .section-title {
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  font-weight: 700;
-  text-transform: uppercase;
-  text-decoration: underline;
-  text-align: justify;
-  line-height: 14px;
   color: #fff;
 }
 
@@ -49,9 +46,7 @@
 }
 
 .about-me__description {
-  width: 100%;
   height: auto;
-  width: 80%;
   margin: 70px auto 0;
 }
 
@@ -60,7 +55,6 @@
 }
 
 .about-me__contact {
-  width: 80%;
   margin: 50px auto 0;
 }
 
@@ -86,10 +80,7 @@
 .about-me__contact ul li i {
   font-size: 24px;
   color: #fff;
-}
-
-.about-me__contact ul li p {
-  margin:  0 0 0 15px;
+  margin: 0 15px 0 0;
 }
 
 .about-me__contact ul li:not(:first-child) {
@@ -97,7 +88,6 @@
 }
 
 .about-me__hobbies {
-  width: 80%;
   margin: 50px auto 0;
 }
 
